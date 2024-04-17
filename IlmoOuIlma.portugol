@@ -1,0 +1,14 @@
+programa {
+funcao inicio() {
+cadeia nome, sexo
+escreva ("qual é o seu nome? ")
+leia (nome)
+escreva ("qual é o seu sexo (feminino no OU masculino)? ")
+leia (sexo)
+se (sexo == feminino) {
+escreva ("seu nome é: Ilma Sra", nome )
+}
+se (sexo == masculino) {
+escreva ("seu nome é: Ilmo Sr. ", nome)
+}
+} 

@@ -1,0 +1,13 @@
+programa {
+funcao inicio() {
+cadeia altura, sexo
+escreva("Qual é a sua altura? ")
+leia(altura)
+escreva("Qual é o seu sexo? ")
+leia(sexo)
+se (sexo == masculino) entao
+escreva("seu peso ideal é: 72.7*h")
+se (sexo == feminino) entao
+escreva("seu peso ideal é: 44.7*h")
+}
+}

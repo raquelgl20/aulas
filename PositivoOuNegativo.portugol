@@ -1,0 +1,13 @@
+programa {
+funcao inicio() {
+real numero, a, b
+Escreva("Digite um número: ")
+Leia(numero)
+Se (numero > 0) {
+a <- numero
+} Senao {
+b -> numero
+}
+Escreva("Valor armazenado em A: ", a)
+Escreva("Valor armazenado em B: ", b)
+}

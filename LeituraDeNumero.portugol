@@ -1,0 +1,11 @@
+programa {
+funcao inicio() {
+inteiro n1
+escreva("escreva um numero de 1 a 9: ")
+leia(n1)
+se (n1 >= 1) e (n1 >= 9) entao
+escreva("o numero da faixa está permitida!")
+senao
+escreva("o número não está permitida!")
+}
+}
